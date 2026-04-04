@@ -159,7 +159,7 @@
 
 //logical operators are &&, ||, !
 
- arthmetic operators: +, -, *, /, %
+ //arthmetic operators: +, -, *, /, %
  
 
 
