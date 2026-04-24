@@ -35,8 +35,18 @@
 
 //while Loop
  
-let i =1;
-while(i<=10){
-    console.log(i);
-    i++;
+// let i =1;
+// while(i<=10){
+//     console.log(i);
+//     i++;
+// }
+function greet(name, vishu) {
+  console.log("Hello " + name);
+  vishu();
 }
+
+function sayBye() {
+  console.log("Bye!");
+}
+
+greet("Vishakha", sayBye);
